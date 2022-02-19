@@ -72,17 +72,20 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
+
 .content h3 {
   font-size: 24px;
-  font-family: var(--default-font-family);
   line-height: 1.5;
+
+  font-family: var(--default-font-family);
 }
+
 .content p {
   font-size: 14px;
 }
+
 .content {
   margin: 30px;
-  text-align: center;
 }
 
 .btn-branding {
@@ -123,7 +126,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 45px;
+  line-height: 42px;
   margin-left: 15px;
 }
 
@@ -151,11 +154,11 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
+
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align: center;
 }
 
 footer .email-link:hover {
@@ -172,21 +175,30 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
